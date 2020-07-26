@@ -1,5 +1,7 @@
 Docker4SITL aims to run SITL (Software In The Loop) of [ArduPilot](http://ardupilot.org/) with Docker. So with this solution, any operating systems which support Docker could be run SITL. 
 
+To connect the LANDRS TOAST, enter ```output add tcpin:0.0.0.0:5761``` into the console to allow TOAST to connect via port 5761.
+
 For information, the SITL (software in the loop) simulator allows you to run Plane, Copter or Rover without any hardware for ArduPilot project. It is a build of the autopilot code using an ordinary C++ compiler, giving you a native executable that allows you to test the behaviour of the code without hardware. 
 
 # Prerequites

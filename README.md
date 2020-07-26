@@ -9,6 +9,8 @@ Run with,
 $ ./startSITLSimulator_MACOSX.sh copter --console --map
 ```
 
+Good tutorial https://javiermunhoz.com/blog/2018/06/08/open-source-uav-sitl-in-docker-mission-planner-and-mav-tools.html.
+
 For information, the SITL (software in the loop) simulator allows you to run Plane, Copter or Rover without any hardware for ArduPilot project. It is a build of the autopilot code using an ordinary C++ compiler, giving you a native executable that allows you to test the behaviour of the code without hardware. 
 
 # Prerequites
